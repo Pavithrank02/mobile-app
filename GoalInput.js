@@ -19,10 +19,19 @@ function GoalInput(props) {
           placeholder='type yout goal'
           style={styles.textInput}
         />
-        <Button
-          onPress={addGoalHandler}
-          title='Add Goal'
-        />
+        <View style={styles.buttonContainer}>
+          <View style={styles.button}>
+            <Button
+              onPress={addGoalHandler}
+              title='Add Goal'
+              color='white'
+            />
+
+          </View>
+          <View style={styles.button}>
+            <Button title="Cancel" color='white'/>
+          </View>
+        </View>
       </View>
     </Modal>
   )
@@ -30,8 +39,8 @@ function GoalInput(props) {
 
 const styles = StyleSheet.create({
   inputContainer: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
+    padding: 16, 
+    justifyContent: 'center',
     alignItems: 'center',
     borderBottomWidth: 2,
     paddingBottom: 24,
@@ -42,10 +51,20 @@ const styles = StyleSheet.create({
   textInput: {
     borderWidth: 1,
     borderColor: 'black',
-    width: '70%',
-    marginRight: 8,
+    width: '100%',
     padding: 8,
   },
+  buttonContainer: {
+    flexDirection: 'row',
+    marginTop: 16
+    
+  }, 
+  button: {
+    width: 100, 
+    marginHorizontal: 8, 
+    backgroundColor: "darkviolet", 
+    
+  }
 })
 
 module.exports = GoalInput

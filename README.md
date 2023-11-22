@@ -52,3 +52,5 @@
 - Adding modal screen
   - use modal component
   - add function
+
+- Styling modal
