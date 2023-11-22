@@ -17,9 +17,12 @@ export default function App() {
     const newGoals = goals.filter((el, i) => i != index)
     setGoals(newGoals)
   }
-   function startAddGoalHandler () {
+  function startAddGoalHandler() {
     setIsModalVisible(true)
-   }
+  }
+  function closeGoalHandler() {
+    setIsModalVisible(false)
+  }
   return (
     <View style={styles.appContainer}>
       <Button
@@ -28,9 +31,10 @@ export default function App() {
         onPress={startAddGoalHandler}
 
       />
-      <GoalInput 
-      onAddGoal={addGoalHandler} 
-      visible={isModalVisible}
+      <GoalInput
+        onClose={closeGoalHandler}
+        onAddGoal={addGoalHandler}
+        visible={isModalVisible}
       />
       <View style={styles.goalContainer}>
         <FlatList

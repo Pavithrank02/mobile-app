@@ -54,3 +54,5 @@
   - add function
 
 - Styling modal
+
+- Openning and Closing Modal
