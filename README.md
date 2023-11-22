@@ -2,6 +2,8 @@
 - project setup done
 - Goal App layout done
 - input text and button added
+- add goal items done
+- delete goals is done
 
 
 # Learnings
@@ -40,3 +42,4 @@
 - Components added in app and code splitting done
 
 - Using Pressable component
+  - using pressable component delete function is written
