@@ -26,3 +26,7 @@
   - height
   - align items
   - flex - should be used for child elements
+
+- Hanlding Events
+  - onChangeText for inputs
+  - onPress for buttons
