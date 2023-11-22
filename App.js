@@ -4,8 +4,11 @@ import { StyleSheet, Text, View, Button } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Mobile App</Text>
-      <Button title='tap'/>
+      <Text style={styles.dummy}>Mobile App</Text>
+      <View >
+        <Text style={styles.dummy}>Text</Text>
+      </View>
+      <Button title='tap' />
     </View>
   );
 }
@@ -17,4 +20,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  dummy: {
+    margin: 16, 
+    borderWidth: 2, 
+    borderColor: 'red',
+    padding: 13, 
+  }
 });

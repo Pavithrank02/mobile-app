@@ -12,3 +12,7 @@
 - Working with components
   - view components is like div in react and its a container
   - button components needs to be imported unlike direct usage in react
+
+- Styling Components
+  - no normal css could be used and only stylesheet component can be used
+  - for border, only seprate variables is used and not single line like css
