@@ -1,5 +1,7 @@
 # mobile-app
 - project setup done
+- Goal App layout done
+- input text and button added
 
 
 # Learnings
@@ -30,3 +32,6 @@
 - Hanlding Events
   - onChangeText for inputs
   - onPress for buttons
+
+- Listing Items
+  - 
