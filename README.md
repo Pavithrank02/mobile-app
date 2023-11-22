@@ -18,4 +18,11 @@
   - for border, only seprate variables is used and not single line like css
 
 - Understanding layout
-  - 
+
+- Flexbox
+  - flex direction
+  - justify-Content
+  - width
+  - height
+  - align items
+  - flex - should be used for child elements
