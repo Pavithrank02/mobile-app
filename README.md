@@ -43,3 +43,6 @@
 
 - Using Pressable component
   - using pressable component delete function is written
+
+- ripple effect
+  - 
