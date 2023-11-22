@@ -16,3 +16,6 @@
 - Styling Components
   - no normal css could be used and only stylesheet component can be used
   - for border, only seprate variables is used and not single line like css
+
+- Understanding layout
+  - 
