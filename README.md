@@ -34,4 +34,9 @@
   - onPress for buttons
 
 - Listing Items
-  - 
+
+- Styling Differences IOS vs Android
+
+- Components added in app and code splitting done
+
+- Using Pressable component
