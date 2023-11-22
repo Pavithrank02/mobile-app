@@ -56,3 +56,5 @@
 - Styling modal
 
 - Openning and Closing Modal
+
+- Adding Images
