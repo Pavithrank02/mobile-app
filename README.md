@@ -4,6 +4,7 @@
 - input text and button added
 - add goal items done
 - delete goals is done
+- modal has been added
 
 
 # Learnings
@@ -45,4 +46,9 @@
   - using pressable component delete function is written
 
 - ripple effect
-  - 
+   - use android.ripple for android to invoke ripple effect
+   - use style={(pressed) => !pressed && styles.pressed} for ios
+   
+- Adding modal screen
+  - use modal component
+  - add function
